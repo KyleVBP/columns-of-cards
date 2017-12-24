@@ -1,8 +1,82 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+
+}
+
+body {
+
+}
+
+img {
+  width: 100px;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  border-left: 3px solid #999;
+  text-align: left;
+}
+
+.cards:last-child {
+  border-right: 3px solid #999;
+}
+
+.cards ul {
+  margin: 0 auto 1rem;
+  padding: 0;
+}
+
+.cards li {
+  list-style-type: none;
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+  padding: .75rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #fff;
+  padding: .4em .75em .3em;
+  margin: 0;
+  background-color: #333;
+  border: 3px solid #333;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: 3px solid #000;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.author {
+  font-style: italic;
+  font-size: .875rem
+}
+
+.para {
+
 }
