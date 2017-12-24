@@ -10,11 +10,7 @@ html {
 }
 
 h1 {
-
-}
-
-body {
-
+  text-align: center;
 }
 
 img {
@@ -28,22 +24,25 @@ img {
   padding: 0;
   list-style-type: none;
   float: left;
-  border-left: 3px solid #999;
+  border-left: 3px solid #333;
   text-align: left;
+  max-width: 25%;
+  height: 400px;
+  background-color: #e2e2e2;
 }
 
 .cards:last-child {
-  border-right: 3px solid #999;
+  border-right: 3px solid #333;
 }
 
 .cards ul {
-  margin: 0 auto 1rem;
+  margin: 0 auto 2rem;
   padding: 0;
+
 }
 
 .cards li {
   list-style-type: none;
-  background-color: #e2e2e2;
   margin: 0;
 }
 
@@ -77,6 +76,14 @@ img {
   font-size: .875rem
 }
 
-.para {
+.card2 {
+  background-color: #ccc;
+}
 
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
 }
