@@ -9,8 +9,17 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h2 {
   text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
 }
 
 img {
@@ -24,15 +33,15 @@ img {
   padding: 0;
   list-style-type: none;
   float: left;
-  border-left: 3px solid #333;
+  border-left: 2px solid #333;
   text-align: left;
   max-width: 25%;
-  height: 400px;
+  height: 425px;
   background-color: #e2e2e2;
 }
 
 .cards:last-child {
-  border-right: 3px solid #333;
+  border-right: 2px solid #333;
 }
 
 .cards ul {
@@ -53,7 +62,7 @@ img {
 
 .btn {
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: .875rem;
   color: #fff;
   padding: .4em .75em .3em;
   margin: 0;
@@ -67,13 +76,18 @@ img {
   border: 3px solid #000;
 }
 
+.btn-small {
+  background-color: #333;
+  border: 3px solid #333;
+}
+
 .title {
   font-weight: bold;
 }
 
 .author {
   font-style: italic;
-  font-size: .875rem
+  font-size: .875rem;
 }
 
 .card2 {
