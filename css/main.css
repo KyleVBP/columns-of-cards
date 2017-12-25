@@ -23,7 +23,7 @@ body {
 }
 
 img {
-  width: 100px;
+  width: 99px;
   margin: 0 auto 1rem;
   display: block;
 }
@@ -33,7 +33,7 @@ img {
   padding: 0;
   list-style-type: none;
   float: left;
-  border-left: 2px solid #333;
+  border-left: 1px solid #333;
   text-align: left;
   max-width: 25%;
   height: 425px;
@@ -41,7 +41,7 @@ img {
 }
 
 .cards:last-child {
-  border-right: 2px solid #333;
+  border-right: 1px solid #333;
 }
 
 .cards ul {
