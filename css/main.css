@@ -22,12 +22,6 @@ body {
   margin: 0;
 }
 
-img {
-  margin: 0 auto 1rem;
-  width: 100px;
-  display: block;
-}
-
 .cards {
   margin: 0;
   padding: 0;
@@ -100,4 +94,10 @@ img {
 
 .card4 {
   background-color: #999;
+}
+
+img{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
 }
